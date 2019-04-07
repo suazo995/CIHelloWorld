@@ -18,3 +18,4 @@ class HelloWorldTest(TestCase):
     client = Client()
     response = client.get("/hello_world/")
     self.assertIn("hello world", response.content)    
+
