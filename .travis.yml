@@ -8,3 +8,5 @@ script_before:
   - python manage.py migrate 
 script: 
   - python manage.py test
+
+
