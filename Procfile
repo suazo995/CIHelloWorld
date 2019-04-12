@@ -1,1 +1,1 @@
-web: gunicorn hello_world.wsgi --log-file 
+web: gunicorn -b 0.0.0.0:80 wsgi --log-file 
